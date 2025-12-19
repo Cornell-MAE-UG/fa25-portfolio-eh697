@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Elias Herrera Hernandez - CV
 permalink: /cv/
 ---
 ## Curriculum Vitae

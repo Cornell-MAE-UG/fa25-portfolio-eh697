@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Portfolio
+title: Elias Herrera Hernandez - Portfolio
 permalink: /projects/
 ---
 
