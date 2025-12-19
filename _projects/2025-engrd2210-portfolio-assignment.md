@@ -7,6 +7,8 @@ image: /assets/images/kohler-engine.jpg
 
 **Collaborators:** _[Susanna Aufrichtig](mailto:sma283@cornell.edu), [Trevor Boshnack](mailto:tjb287@cornell.edu), [Camille Eckert](mailto:cse49@cornell.edu)_
 
+{% raw %}
+
 For this assignment, we will be analyzing and comparing the thermal efficiency of the Rehlko Command PRO CH440 Engine. This is the regulation engine mandated by SAE International for the collegiate Baja SAE Competition. 
 
 Throughout this analysis, most data will be sourced from the manufacturer specification sheet for the CH440 engine and the SAE International Competition Rulebook for the Baja SAE competition.
@@ -45,10 +47,14 @@ $$
 V = h r^2 = (7.94)(4)^2 = 399.1 \, \text{in}^3 = 0.00654 \, \text{m}^3.
 $$
 
+{% endraw %}
+
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="{{ '/assets/images/baja-fuel-tank.png' | relative_url }}" alt="First Image" style="width:48%;">
   <img src="{{ '/assets/images/baja-fuel-tank-drawing.jpg' | relative_url }}" alt="Second Image" style="width:48%;">
 </div>
+
+{% raw %}
 
 The typical density for unleaded gasoline is about 0.71 to 0.77 g/mL or 710 to 770 kg/m\(^3\). To be conservative in our calculation of efficiency, we choose the highest density (i.e., a less efficient engine will need more gas to produce the same amount of work). Thus we find that the mass of gas when the gas tank is full is
 
@@ -88,10 +94,13 @@ $$
 
 the free body diagram for one of the wheels looks as below:
 
+{% endraw %}
+
 <div style="text-align: center;">
   <img src="{{ '/assets/images/fbd-baja-wheel.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
 </div>
 
+{% raw %}
 
 Multiplying the result of the friction force by four wheels, we find that the total forward force necessary to move the car forward is 889.952 N. 
 
@@ -108,3 +117,5 @@ $$
 $$
 
 We find that, as would be expected, the actual efficiency is much lower than the ideal-air standard efficiency. This being said, it is more than obvious that this is not only the product of the real cycle not being ideal air (i.e., not an ideal gas but rather a fuel-air mixture, not isentropic, expansion as a result of combustion rather than heat transfer, etc.) but also due to other broader simplifying assumptions such as assuming only forward motion, assuming constant torque as average torque (when in reality the front and rear wheels produce different amounts of torque at all times and the torque varies between the transmission’s low and high-end ratios), and assuming perfect torque transmission between the wheels and ground (ignoring wheel slip and losses of energy to friction, air resistance, etc.).
+
+{% endraw %}
