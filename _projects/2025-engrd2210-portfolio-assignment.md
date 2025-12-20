@@ -44,7 +44,7 @@ The real four stroke engine consists of 1. intake of fuel-air mixture 2. compres
   <img src="{{ '/assets/images/otto-cycle.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
 </div>
 
-Meanwhile, the ideal air standard assumes a closed system where the steps are 1. adiabatic compression 2. constant volume heat addition from a thermal reservoir 3. adiabatic expansion 4. constant pressure heat removal to a thermal reservoir.
+Meanwhile, the ideal air standard assumes a closed system where the steps are 1. adiabatic compression 2. constant volume heat addition from a thermal reservoir 3. adiabatic expansion 4. constant volume heat removal to a thermal reservoir.
 
 The efficiency of this ideal system is given by the equation:
 
