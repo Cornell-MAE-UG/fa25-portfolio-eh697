@@ -1,6 +1,6 @@
 ---
 layout: project
-title: ENGRD 2210 Portfolio Assignment - Baja SAE Rehlko CH440 Engine
+title: ENGRD 2210 Portfolio Assignment
 description: Class Assignment
 image: /assets/images/kohler-engine.jpg
 ---
