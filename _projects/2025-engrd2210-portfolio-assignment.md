@@ -130,7 +130,7 @@ From the ideal gas law (PV=mRT), the mass of the air in the cylinder is proporti
 
 {% raw %}
 $$
-W_\text{cyc} \alpha MEP \alpha P \alpha m_\text{air}
+W_\text{cyc} \quad \alpha \quad  MEP \quad \alpha \quad  P \quad \alpha \quad  m_\text{air}
 $$
 {% endraw %}
 
@@ -138,7 +138,7 @@ We can simplify the work of the cycle to maximum torque since they are proportio
 
 {% raw %}
 $$
-\tau \alpha MEP \alpha m_\text{air}
+\tau \quad  \alpha \quad MEP \quad \alpha \quad m_\text{air}
 $$
 {% endraw %}
 
