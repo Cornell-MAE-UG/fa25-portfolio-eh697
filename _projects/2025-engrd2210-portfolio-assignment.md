@@ -160,7 +160,7 @@ This means that the ratios of torque and mass of air should be equivalent.
 
 {% raw %}
 $$
-\frac{\tau_\text{10}}{\tau_\text{14}} = \frac{m\text{10 air}}{m\text{14 air}} = 0.793
+\frac{\tau_\text{10}}{\tau_\text{14}} = \frac{m_\text{10 air}}{m_\text{14 air}} = 0.793
 $$
 {% endraw %}
 
