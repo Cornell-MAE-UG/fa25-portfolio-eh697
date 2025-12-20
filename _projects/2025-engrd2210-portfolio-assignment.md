@@ -30,8 +30,6 @@ The analysis will consist of three main parts:
 
 ## Ideal Air Standard Otto Cycle
 
-#### Stock Engine
-
 First, we will model this system as an ideal air-standard Otto cycle.
 
 The efficiency of this ideal system is given by the equation:
@@ -54,9 +52,11 @@ $$
 
 This is the thermal efficiency for the stock, 14HP engine, and it is within typical values for an ideal air-standard Otto cycle.
 
-We now ask, how does this efficiency change when limitting the engine to 10HP as per Baja SAE competition rules?
+## Engine Comparison
 
-#### Limitted Engine
+#### Work and Heat Input Variation
+
+For the Baja SAE competition, the 14 HP engine has an air limiting gasket, making it operate at 10 HP. Since thermal efficiency only depends on the compression ratio, the efficiency between the two engine variations should be the same. We can use physically recorded data to find the difference in the work output and heat input per cycle between the engines.
 
 We start by calculating the cycle work and heat input for a 14HP cycle. Per the CH440 datasheet, the maximum torque output of 22.7 ft-lbs occurs at 2800 rpm. 
 
@@ -96,7 +96,7 @@ The maximum torque was determined to be around 18 ft-lb, and powerband was deter
 
 With this information, we repeat the previous calculations to find the work output and heat input of the 10HP cycle.
 
-From the formelry derived equation for the work of a cycle:
+From the previously derived equation for the work of a cycle:
 
 {% raw%}
 $$
@@ -112,16 +112,50 @@ Q_\text{in} = \frac{W_\text{cyc}}{\eta} = \frac{\text{306.62 J}}{0.5711} = \text
 $$
 {% endraw %}
 
-#### Discussion
-
 We can see that the work per cycle decreased from 386.79 J to 306.62 J. The heat input per cycle decreased from 677.28 J to 536.89 J. This will result in lower fuel intake, but also a lower maximum torque output. 
+
+#### Air Intake Limitation
 
 To make this design decision, Rehlko engineers needed to determine how much to limit the air intake to get the torque dropoff of 22.7 ft-lb to 18 ft-lb. The change in the mass of air being consumed can be determined with information we already have.
 
+The mean effective pressure is the average pressure throughout the stroke defined by work of the cycle divided by the displacement.
 
-Having analyzed the theoretical efficiency of the CH440 engine modified for use in Baja SAE, we now ask: how does it compare to its real performance in competition?
+{% raw %}
+$$
+MEP = \frac{W_\text{cyc}}{V_\text{d}}
+$$
+{% endraw %}
+
+From the ideal gas law (PV=mRT), the mass of the air in the cylinder is proportional to the piston pressure under a relatively constant temperature. The mass of the air is therefore proportional to mean effective pressure. Therefore:
+
+{% raw %}
+$$
+W_\text{cyc} \alpha MEP \alpha P \alpha m_\text{air}
+$$
+{% endraw %}
+
+We can simplify the work of the cycle to maximum torque since they are proportional.
+
+{% raw %}
+$$
+\tau \alpha MEP \alpha m_\text{air}
+$$
+{% endraw %}
+
+This means that the ratios of torque and mass of air should be equivalent.
+
+{% raw %}
+$$
+\frac{\tau_\text{10}}{\tau_\text{14}} = \frac{m\text{10 air}}{m\text{14 air}} = 0.793
+$$
+{% endraw %}
+
+
+We can conclude that the intake should be limited such that only 79.3% of original air mass can enter the cylinder.
 
 ## Real Efficiency
+
+Having analyzed the theoretical efficiency of the CH440 engine modified for use in Baja SAE, we now ask: how does it compare to its real performance in competition?
 
 Thermal efficiency of a power cycle in general is expressed as 
 
