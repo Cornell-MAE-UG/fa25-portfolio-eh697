@@ -1,15 +1,34 @@
 ---
 layout: project
-title: ENGRD 2210 - Portfolio Assignment
+title: ENGRD 2210 Portfolio Assignment - Baja SAE Rehlko CH440 Engine
 description: Class Assignment
 image: /assets/images/kohler-engine.jpg
 ---
 
-**Collaborators:** _[Susanna Aufrichtig](mailto:sma283@cornell.edu), [Trevor Boshnack](mailto:tjb287@cornell.edu), [Camille Eckert](mailto:cse49@cornell.edu)_
+## **Collaborators:** ##
+_[Susanna Aufrichtig](mailto:sma283@cornell.edu), [Trevor Boshnack](mailto:tjb287@cornell.edu), [Camille Eckert](mailto:cse49@cornell.edu)_
+
+## Assignment Background
+
+In ENGRD 2210 - Thermodynamics, we were tasked with selecting a real-world instance of a device or system that we had learned about in class, explaining how it works in detail, and discussing how its perforamnce would change under design or operating condition changes.
+
+## System Background
 
 For this assignment, we will be analyzing and comparing the thermal efficiency of the Rehlko Command PRO CH440 Engine. This is the regulation engine mandated by SAE International for the collegiate Baja SAE Competition. 
 
+The engine comes stock as a 14HP, single cylinder, four-stroke engine. However, competition rules mandate aftermarket modifications to limit the engine to 10HP.
+
 Throughout this analysis, most data will be sourced from the manufacturer specification sheet for the CH440 engine and the SAE International Competition Rulebook for the Baja SAE competition.
+
+The analysis will consist of three main parts:
+
+**1. Calculating the efficiency of the engine, modeling it as a ideal air standard Otto Cycle**
+
+**2. Calculate differences in ideal air-standard efficiency between the stock 14HP engine and the limitted 10HP configuration.**
+
+**3. Compare both of these ideal efficiencies to the efficiency of the engine in real operating conditions**
+
+## Ideal Air Standard Otto Cycle
 
 First, we will model this system as an ideal air-standard Otto cycle.
 
@@ -21,7 +40,7 @@ $$
 $$
 {% endraw %}
 
-where \( r \) is the compression ratio (given by the manufacturer as \( r = 8.3 \)) and \( k \) is the specific heat ratio, typically \( k = 1.4 \) when modeling air as an ideal gas.
+where r is the compression ratio (given by the manufacturer as r = 8.3) and k is the specific heat ratio, typically k = 1.4 when modeling air as an ideal gas.
 
 Thus we find that:
 
@@ -130,3 +149,7 @@ $$
 {% endraw %}
 
 We find that, as would be expected, the actual efficiency is much lower than the ideal-air standard efficiency. This being said, it is more than obvious that this is not only the product of the real cycle not being ideal air (i.e., not an ideal gas but rather a fuel-air mixture, not isentropic, expansion as a result of combustion rather than heat transfer, etc.) but also due to other broader simplifying assumptions such as assuming only forward motion, assuming constant torque as average torque (when in reality the front and rear wheels produce different amounts of torque at all times and the torque varies between the transmission’s low and high-end ratios), and assuming perfect torque transmission between the wheels and ground (ignoring wheel slip and losses of energy to friction, air resistance, etc.).
+
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/tg21.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+</div>
