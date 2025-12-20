@@ -32,6 +32,20 @@ The analysis will consist of three main parts:
 
 First, we will model this system as an ideal air-standard Otto cycle.
 
+Below is a comparison between an actual four-stroke engine and the ideal air standard Otto Cycle.
+
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/real-four-stroke.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+</div
+
+The real four stroke engine consists of 1. intake of fuel-air mixture 2. compression of air 3. combustion 4. expansion of air mixture (power stroke) 5. exhaust of air and combustion products.
+
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/otto-cycle.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+</div>
+
+Meanwhile, the ideal air standard assumes a closed system where the steps are 1. adiabatic compression 2. constant pressure heat addition from a thermal reservoir 3. adiabatic expansion 4. constant pressure heat removal to a thermal reservoir.
+
 The efficiency of this ideal system is given by the equation:
 
 {% raw %}
