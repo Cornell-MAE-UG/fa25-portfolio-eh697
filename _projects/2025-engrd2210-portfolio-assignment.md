@@ -30,6 +30,8 @@ The analysis will consist of three main parts:
 
 ## Ideal Air Standard Otto Cycle
 
+#### Stock Engine
+
 First, we will model this system as an ideal air-standard Otto cycle.
 
 The efficiency of this ideal system is given by the equation:
@@ -50,9 +52,76 @@ $$
 $$
 {% endraw %}
 
-This is typical for an ideal air-standard Otto cycle.
+This is the thermal efficiency for the stock, 14HP engine, and it is within typical values for an ideal air-standard Otto cycle.
 
-But how does it compare to the real performance of the engine?
+We now ask, how does this efficiency change when limitting the engine to 10HP as per Baja SAE competition rules?
+
+#### Limitted Engine
+
+We start by calculating the cycle work and heat input for a 14HP cycle. Per the CH440 datasheet, the maximum torque output of 22.7 ft-lbs occurs at 2800 rpm. 
+
+To calculate power output, we use
+
+{% raw %}
+$$
+P = \tau \, \omega = \tau \frac{2 \pi \cdot RPM}{\text{60 sec}}
+$$
+{% endraw %}
+
+Now, to calculate the work, we use the fact that the work of a cycle is power per cycles per second:
+
+{% raw%}
+$$
+W_\text{cyc} = \frac{P}{\text{cycles/sec}} = \frac{\tau \frac{2 \pi \cdot RPM}{\text{60 sec}}}{\frac{RPM}{\text{2 cyles*60sec}}} = 4 \pi \tau = 4 \pi \cdot \text{30.78 Nm} = \text{386.79 J}
+$$
+{% endraw %}
+
+With the previously calculated efficiency and this newly calculated work per cycle, we can back out the heat inputted: 
+
+{% raw %}
+$$
+Q_\text{in} = \frac{W_\text{cyc}}{\eta} = \frac{\text{386.79 J}}{0.5711} = \text{677.28 J}
+$$
+{% endraw %}
+
+Now that we know the heat inputted into the engine, we can calculate new performance metrics for the restricted 10HP engine using measured values for torque and RPM.
+
+These values are obtained thanks to Trevor's work for Cornell Baja Racing last year. Trevor created a dynamometer setup which measured the power band RPM and maximum torque using a hall effect sensor, a load cell, and a water break.
+
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/dyno-setup.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+</div>
+
+The maximum torque was determined to be around 18 ft-lb, and powerband was determined to be at 3000 rpm.
+
+With this information, we repeat the previous calculations to find the work output and heat input of the 10HP cycle.
+
+From the formelry derived equation for the work of a cycle:
+
+{% raw%}
+$$
+W_\text{cyc} = 4 \pi \tau = 4 \pi \cdot \text{24.405 Nm} = \text{306.62 J}
+$$
+{% endraw %}
+
+And using the definition of thermal efficiency once more,
+
+{% raw %}
+$$
+Q_\text{in} = \frac{W_\text{cyc}}{\eta} = \frac{\text{306.62 J}}{0.5711} = \text{536.89 J}
+$$
+{% endraw %}
+
+#### Discussion
+
+We can see that the work per cycle decreased from 386.79 J to 306.62 J. The heat input per cycle decreased from 677.28 J to 536.89 J. This will result in lower fuel intake, but also a lower maximum torque output. 
+
+To make this design decision, Rehlko engineers needed to determine how much to limit the air intake to get the torque dropoff of 22.7 ft-lb to 18 ft-lb. The change in the mass of air being consumed can be determined with information we already have.
+
+
+Having analyzed the theoretical efficiency of the CH440 engine modified for use in Baja SAE, we now ask: how does it compare to its real performance in competition?
+
+## Real Efficiency
 
 Thermal efficiency of a power cycle in general is expressed as 
 
@@ -77,7 +146,7 @@ $$
   <img src="{{ '/assets/images/baja-fuel-tank-drawing.jpg' | relative_url }}" alt="Second Image" style="width:48%;">
 </div>
 
-The typical density for unleaded gasoline is about 0.71 to 0.77 g/mL or 710 to 770 kg/m\(^3\). To be conservative in our calculation of efficiency, we choose the highest density (i.e., a less efficient engine will need more gas to produce the same amount of work). Thus we find that the mass of gas when the gas tank is full is
+The typical density for unleaded gasoline is about 0.71 to 0.77 g/mL or 710 to 770 kg/m^3. To be conservative in our calculation of efficiency, we choose the highest density (i.e., a less efficient engine will need more gas to produce the same amount of work). Thus we find that the mass of gas when the gas tank is full is
 
 {% raw %}
 $$
@@ -119,7 +188,7 @@ To find the average force exerted on the car to move it forward, we perform a st
 
 {% raw %}
 $$
-\mu = 0.4,
+\mu = 0.4
 $$
 {% endraw %}
 
