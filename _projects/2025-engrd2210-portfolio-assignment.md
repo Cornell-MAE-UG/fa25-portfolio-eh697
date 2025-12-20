@@ -10,7 +10,7 @@ _[Susanna Aufrichtig](mailto:sma283@cornell.edu), [Trevor Boshnack](mailto:tjb28
 
 ## Assignment Background
 
-In ENGRD 2210 - Thermodynamics, we were tasked with selecting a real-world instance of a device or system that we had learned about in class, explaining how it works in detail, and discussing how its perforamnce would change under design or operating condition changes.
+In ENGRD 2210 - Thermodynamics, we were tasked with selecting a real-world instance of a device or system that we had learned about in class, explaining how it works in detail, and discussing how its performance would change under design or operating condition changes.
 
 ## System Background
 
@@ -86,7 +86,7 @@ Now, to calculate the work, we use the fact that the work of a cycle is power pe
 
 {% raw%}
 $$
-W_\text{cyc} = \frac{P}{\text{cycles/sec}} = \frac{\tau \frac{2 \pi \cdot RPM}{\text{60 sec}}}{\frac{RPM}{\text{2 cyles*60sec}}} = 4 \pi \tau = 4 \pi \cdot \text{30.78 Nm} = \text{386.79 J}
+W_\text{cyc} = \frac{P}{\text{cycles/sec}} = \frac{\tau \frac{2 \pi \cdot RPM}{\text{60 sec}}}{\frac{RPM}{\text{2 cycles*60sec}}} = 4 \pi \tau = 4 \pi \cdot \text{30.78 Nm} = \text{386.79 J}
 $$
 {% endraw %}
 
