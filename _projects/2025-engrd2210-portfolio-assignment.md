@@ -24,7 +24,7 @@ The analysis will consist of three main parts:
 
 **1. Calculating the efficiency of the engine, modeling it as a ideal air standard Otto Cycle**
 
-**2. Calculate differences in ideal air-standard efficiency between the stock 14HP engine and the limitted 10HP configuration.**
+**2. Calculate differences in work and heat of the stock 14HP engine and the limited 10HP configuration, and calculate how the limiting is specified.**
 
 **3. Compare both of these ideal efficiencies to the efficiency of the engine in real operating conditions**
 
