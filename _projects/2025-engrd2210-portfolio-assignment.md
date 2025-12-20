@@ -36,7 +36,7 @@ Below is a comparison between an actual four-stroke engine and the ideal air sta
 
 <div style="text-align: center;">
   <img src="{{ '/assets/images/real-four-stroke.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
-</div
+</div>
 
 The real four stroke engine consists of 1. intake of fuel-air mixture 2. compression of air 3. combustion 4. expansion of air mixture (power stroke) 5. exhaust of air and combustion products.
 
