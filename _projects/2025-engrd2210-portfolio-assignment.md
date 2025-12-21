@@ -6,7 +6,8 @@ image: /assets/images/kohler-engine.jpg
 ---
 
 ## **Collaborators:** ##
-_[Susanna Aufrichtig](mailto:sma283@cornell.edu), [Trevor Boshnack](mailto:tjb287@cornell.edu), [Camille Eckert](mailto:cse49@cornell.edu)_
+_[Elias Herrera Hernandez](mailto:eh697@cornell.edu)
+[Susanna Aufrichtig](mailto:sma283@cornell.edu), [Trevor Boshnack](mailto:tjb287@cornell.edu), [Camille Eckert](mailto:cse49@cornell.edu)_
 
 ## Assignment Background
 
@@ -100,7 +101,7 @@ $$
 
 Now that we know the heat inputted into the engine, we can calculate new performance metrics for the restricted 10HP engine using measured values for torque and RPM.
 
-These values are obtained thanks to Trevor's work for Cornell Baja Racing last year. Trevor created a dynamometer setup which measured the power band RPM and maximum torque using a hall effect sensor, a load cell, and a water break.
+These values are obtained thanks to Trevor's work for Cornell Baja Racing last year. Trevor created a dynamometer setup which measured the power band RPM and maximum torque using a hall effect sensor, a load cell, and a water brake.
 
 <div style="text-align: center;">
   <img src="{{ '/assets/images/dyno-setup.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
