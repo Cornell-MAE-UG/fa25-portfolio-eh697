@@ -6,7 +6,7 @@ image: /assets/images/kohler-engine.jpg
 ---
 
 ## **Collaborators:** ##
-_[Elias Herrera Hernandez](mailto:eh697@cornell.edu)
+_[Elias Herrera Hernandez](mailto:eh697@cornell.edu),
 [Susanna Aufrichtig](mailto:sma283@cornell.edu), [Trevor Boshnack](mailto:tjb287@cornell.edu), [Camille Eckert](mailto:cse49@cornell.edu)_
 
 ## Assignment Background
