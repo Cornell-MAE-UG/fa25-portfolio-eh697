@@ -17,28 +17,25 @@ header-includes:
 
 ## Problem statement
 
-SLFs feed on the phloem of grapevines, which reduces nitrogen and carbon in the roots and soil and affects the taste and size of future grape harvests. If SLFs are left unchecked, they can ultimately kill an entire vineyard. Moreover, the accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22 ton batch. Ensuring that there are no SLFs on the vine before harvest begins will also address the contamination problem without adding complexity or delaying the harvesting process.
+Grape farmers cross upstate NY and PA are facing produce loss and crop deterioration from SLF infestations. The accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22-ton batch. Moreover, SLFs feed on the phloem of grapevines, which reduces nitrogen and carbon in the roots and soil and affects the taste and size of future grape harvests. If SLFs are left unchecked, they can ultimately kill an entire vineyard.
 
 
 ## Impact
 
-Solving this problem is beneficial to the grape industry, as preventing SLFs from accessing grapevines decreases the number of throwaway batches while improving the quality of present and future harvests alike. Grape harvests have an extremely low tolerance for the number of SLFs allowed. Just 1–2 grams of SLFs (about 1–2 SLFs) per kilogram of grapes is sufficient to throw out the entire 22-ton batch, leading to loss of profit and wasted material. Eliminating SLFs before they ever reach the vine preserves the integrity of the current crop of grapes, improving the profitability of harvest. Furthermore, SLFs feed on grapevine phloem, and while healthy vines can produce quality fruit for 50+ years, this useful life diminishes as SLFs cause vine health to deteriorate. Eliminating lanternflies will preserve the health of the vines, prolonging the useful life of the vines and ensuring profitability on a longer time scale.
+Solving this problem is beneficial to the grape industry, as preventing SLFs from accessing grapevines decreases the number of throwaway batches while improving the quality of both present and future harvests. As mentioned above, even a small number of SLF's can cause a large batch of grapes to be rendered unusable. Eliminating SLFs before they ever reach the vine preserves the integrity of the current crop of grapes, improving the profitability of harvest. Furthermore, SLFs feed on grapevine phloem, and while healthy vines can produce quality fruit for 50+ years, this useful life diminishes as SLFs cause vine health to deteriorate. Eliminating lanternflies will preserve the health of the vines, prolong their useful life, and ensure profitability on a longer timescale.
 
 ## Proposed direction
 
-(primary): <1-line name> **Electrical Fence Lure and Pesticide Spraying Mechanism** <1–2 sentences.> **How it would be used:** <2–4 bullet “user
-flow” steps.> **Why it’s better than the status quo:** <2–3 bullets.> **End-of-semester proof-of-concept:**
+Our proposed solution is to attract SLFs away from the vines to then kill them using conventional pesticides. More specifically, as the SLFs migrate from the Tree of Heaven to the vines, we will aim to attract them to an electrified fence around the perimeter of the vineyard. There, they will be sprayed with pesticides at set time intervals. This solution improves on current methods by applying pesticides away from the vine, improving the quality of produce for human consumption and mitigating the contamination of the soil in which the vines grow. As proof of concept, we will develop a small section of electrified wire, test that it emits a variety of frequencies that the SLFs may be attracted to, and develop a prototype pesticide sprayer with a timer.
 
 ## Key Risks / Unknowns
 
-The key risks of focusing on our proposed problem are the scale of the solution required. New York State has over 30,000 acres of vineyards, and to block SLFs from entering vineyards would require many resources just to physically cover a lot of space. In addition, because our solution focuses on prevention, if it is ineffective and does allow a significant number of SLFs to enter vineyards, then we have no way to sort SLFs from grapes during harvesting.
-
-Furthermore, the use of an electrified wire to attract spotted lanternflies may cause ecological disturbance beyond the desired scope of impact. More specifically, it is possible that other insects (perhaps even those beneficial to agriculture such as pollinators) may be attracted to the utilized frequencies and would also be eliminated by the pesticide sprayer. Additionally, depending on the particular implementation of this solution, it is possible that this electrified wire would pose harm to larger animals passing through areas adjacent to grapevines, such as deer, raccoons, foxes, rabbits, and other mammals commonly found in the Northeastern U.S.
+The key risks of focusing on our proposed problem are the scale of the solution required. New York State has over 30,000 acres of vineyards, and to block SLFs from entering vineyards would require many resources just to physically cover a lot of space. Furthermore, the use of an electrified wire to attract spotted lanternflies may cause ecological disturbance beyond the desired scope of impact. More specifically, it is possible that other insects (including those beneficial to agriculture such as pollinators) may be attracted to the utilized frequencies and would also be eliminated by the pesticide sprayer. Additionally, it is possible that this electrified wire could pose harm to larger animals passing through areas adjacent to grapevines.
 
 ## Questions for the client 
 
 1. Has anyone tried to attract SLF’s before? 
-2. When spotted lanternflies do get on the grapevines, do they jump around on the same vine, or jump to different grapevine rows?
+2. If SLF's are, in fact, attracted to alternating electrical currents, would they linger around such a lure as moths do around bright lights?
 
 <div style="display:none;">
 \newpage
