@@ -17,7 +17,7 @@ header-includes:
 
 ## Problem statement
 
-Grape farmers cross upstate NY and PA are facing produce loss and crop deterioration from SLF infestations. The accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22-ton batch. Moreover, SLFs feed on the phloem of grapevines, which reduces nitrogen and carbon in the roots and soil and affects the taste and size of future grape harvests. If SLFs are left unchecked, they can ultimately kill an entire vineyard.
+Grape farmers across upstate NY and PA are facing produce loss and crop deterioration from SLF infestations. The accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22-ton batch. Moreover, SLFs feed on the phloem of grapevines, which reduces nitrogen and carbon in the roots and soil and affects the taste and size of future grape harvests. If SLFs are left unchecked, they can ultimately kill an entire vineyard.
 
 
 ## Impact
