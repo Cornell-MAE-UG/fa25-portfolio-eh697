@@ -11,13 +11,13 @@ header-includes:
     - \pagenumbering{gobble} 
 --- 
 
-# Open Design Project: Spotted Lanterflies 
+# Open Design Project: Spotted Lanterflies (SLFs)
 **Team:** _Sinicus_ 
 **Client(s):** _Cornell CALS Extension / E\&J Gallo Winery / National Grape_
 
 ## Problem statement
 
-Grape farmers across upstate NY and PA are facing produce loss and crop deterioration from SLF infestations. The accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22-ton batch. Moreover, SLFs feed on the phloem of grapevines, which reduces nitrogen and carbon in the roots and soil and affects the taste and size of future grape harvests. If SLFs are left unchecked, they can ultimately kill an entire vineyard.
+Grape farmers across upstate NY and PA are facing produce loss and crop deterioration from SLF infestations. The accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22-ton batch. However, a study with Mechanical Harvesters found that on average 300 SLFs from 100-ft of harvesting ended up in bins when not sprayed with pesticides. Moreover, SLFs feed on the phloem of grapevines, which reduces nitrogen and carbon in the roots and soil and affects the taste and size of future grape harvests. If SLFs are left unchecked, they can ultimately kill an entire vineyard.
 
 
 ## Impact
@@ -30,12 +30,13 @@ Our proposed solution is to attract SLFs away from the vines to then kill them u
 
 ## Key Risks / Unknowns
 
-The key risks of focusing on our proposed problem are the scale of the solution required. New York State has over 30,000 acres of vineyards, and to block SLFs from entering vineyards would require many resources just to physically cover a lot of space. Furthermore, the use of an electrified wire to attract spotted lanternflies may cause ecological disturbance beyond the desired scope of impact. More specifically, it is possible that other insects (including those beneficial to agriculture such as pollinators) may be attracted to the utilized frequencies and would also be eliminated by the pesticide sprayer. Additionally, it is possible that this electrified wire could pose harm to larger animals passing through areas adjacent to grapevines.
+The key risks of focusing on our proposed problem are the scale of the solution required. New York State has over 30,000 acres of vineyards, and to block SLFs from entering vineyards would require many resources just to physically cover a lot of space. Furthermore, the use of an electrified wire to attract spotted lanternflies may cause ecological disturbance beyond the desired scope of impact. More specifically, it is possible that other insects (including those beneficial to agriculture such as pollinators) may be attracted to the utilized frequencies and would also be eliminated by the pesticide sprayer. Additionally, it is possible that this electrified wire could pose harm to larger animals passing through areas adjacent to grapevines. Some unknowns behind the spraying pesticides aspect are how often we would need to spray and for how long. 
 
 ## Questions for the client 
 
-1. Has anyone tried to attract SLF’s before? 
-2. If SLF's are, in fact, attracted to alternating electrical currents, would they linger around such a lure as moths do around bright lights?
+1. How has attracting SLFs been attempted in the past and how successful was it? 
+2. How long do the pesticides take to kill a SLF and how much is needed to kill one?
+3. Would SLFs linger around an alternating electrical current as moths do around bright lights given that research shows they are attracted to alternating electrical currents?
 
 <div style="display:none;">
 \newpage
