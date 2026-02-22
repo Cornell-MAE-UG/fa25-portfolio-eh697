@@ -11,32 +11,33 @@ header-includes:
     - \pagenumbering{gobble} 
 --- 
 
-# Open Design Project: Spotted Lanterflies (SLFs)
+# Open Design Project: Spotted Lanternflies (SLFs)
 **Team:** _Sinicus_ 
 **Client(s):** _Cornell CALS Extension / E\&J Gallo Winery / National Grape_
 
 ## Problem statement
 
-Grape farmers across upstate NY and PA are facing produce loss and crop deterioration from SLF infestations. The accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22-ton batch. However, a study with Mechanical Harvesters found that on average 300 SLFs from 100-ft of harvesting ended up in bins when not sprayed with pesticides. Moreover, SLFs feed on the phloem of grapevines, which reduces nitrogen and carbon in the roots and soil and affects the taste and size of future grape harvests. If SLFs are left unchecked, they can ultimately kill an entire vineyard.
-
+Our problem of interest is the influx of spotted lanternflies (SLFs) into vineyards from forested areas during peak grape harvesting period, as grapevines are the most attractive host to SLFs after the Tree of Heaven. Thus, our problem focuses on attracting SLFs to something other than the grapevines and eliminating them before they can cause damage to the crop.
 
 ## Impact
 
-Solving this problem is beneficial to the grape industry, as preventing SLFs from accessing grapevines decreases the number of throwaway batches while improving the quality of both present and future harvests. As mentioned above, even a small number of SLF's can cause a large batch of grapes to be rendered unusable. Eliminating SLFs before they ever reach the vine preserves the integrity of the current crop of grapes, improving the profitability of harvest. Furthermore, SLFs feed on grapevine phloem, and while healthy vines can produce quality fruit for 50+ years, this useful life diminishes as SLFs cause vine health to deteriorate. Eliminating lanternflies will preserve the health of the vines, prolong their useful life, and ensure profitability on a longer timescale.
+Preventing SLFs from accessing grapevines decreases the number of throwaway batches and improves the quality of harvests. The accepted tolerance of SLFs in grape products is low, with only 1–2 SLFs per kilogram of grapes required to reject a 22-ton batch. However, a study with mechanical harvesters found that, on average, 300 SLFs from 100-ft of harvesting ended up in bins when not sprayed with pesticides. Eliminating SLFs before they ever reach the vine preserves the integrity of the current crop of grapes, improving the profitability of harvest. Furthermore, SLFs feed on grapevine phloem, reducing nitrogen and carbon in the roots and soil and diminishing the taste and size of future grape harvests. Eliminating lanternflies will preserve the health of the vines, prolong their useful life, and ensure profitability on a longer timescale.
 
 ## Proposed direction
 
-Our proposed solution is to attract SLFs away from the vines to then kill them using conventional pesticides. More specifically, as the SLFs migrate from the Tree of Heaven to the vines, we will aim to attract them to an electrified fence around the perimeter of the vineyard. There, they will be sprayed with pesticides at set time intervals. This solution improves on current methods by applying pesticides away from the vine, improving the quality of produce for human consumption and mitigating the contamination of the soil in which the vines grow. As proof of concept, we will develop a small section of electrified wire, test that it emits a variety of frequencies that the SLFs may be attracted to, and develop a prototype pesticide sprayer with a timer.
+Our proposed solution is to attract SLFs away from the vines to then kill them using conventional pesticides. As the SLFs migrate from the Tree of Heaven to the vines, we will aim to attract them to an electrified fence around the perimeter of the vineyard. There, they will be sprayed with pesticides. This solution improves on current methods by applying pesticides away from the vine. As proof of concept, we will develop a section of electrified wire, test that it emits a variety of frequencies that the SLFs may be attracted to, and develop a prototype pesticide sprayer.
 
 ## Key Risks / Unknowns
 
-The key risks of focusing on our proposed problem are the scale of the solution required. New York State has over 30,000 acres of vineyards, and to block SLFs from entering vineyards would require many resources just to physically cover a lot of space. Furthermore, the use of an electrified wire to attract spotted lanternflies may cause ecological disturbance beyond the desired scope of impact. More specifically, it is possible that other insects (including those beneficial to agriculture such as pollinators) may be attracted to the utilized frequencies and would also be eliminated by the pesticide sprayer. Additionally, it is possible that this electrified wire could pose harm to larger animals passing through areas adjacent to grapevines. Some unknowns behind the spraying pesticides aspect are how often we would need to spray and for how long. 
+The key risks of focusing on our proposed problem are the scale of the solution required. New
+York State has over 30,000 acres of vineyards, and to block SLFs from entering vineyards would
+require many resources just to physically cover a lot of space. Furthermore, the use of an electrified wire to attract spotted lanternflies may cause ecological disturbance beyond the desired scope of impact. More specifically, it is possible that other insects (including those beneficial to agriculture such as pollinators) may be attracted to the utilized frequencies and would also be eliminated by the pesticide sprayer. Additionally, it is possible that this electrified wire could pose harm to larger animals passing through areas adjacent to grapevines. Another unknown is how often and for how long pesticides need to be sprayed to be effective.
 
-## Questions for the client 
+## Questions for the client
 
-1. How has attracting SLFs been attempted in the past and how successful was it? 
+1. How has attracting SLFs been attempted in the past and how successful was it?
 2. How long do the pesticides take to kill a SLF and how much is needed to kill one?
-3. Would SLFs linger around an alternating electrical current as moths do around bright lights given that research shows they are attracted to alternating electrical currents?
+3. Would SLFs linger around an alternating electrical current (like moths do around bright lights) as is suggested in some research?
 
 <div style="display:none;">
 \newpage
