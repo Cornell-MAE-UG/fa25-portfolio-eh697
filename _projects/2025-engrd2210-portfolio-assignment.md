@@ -1,6 +1,6 @@
 ---
 layout: project
-title: ENGRD 2210 Portfolio Assignment
+title: ENGRD 2210 - Portfolio Assignment
 description: Class Assignment
 image: /assets/images/kohler-engine.jpg
 ---

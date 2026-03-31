@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MAE 2250 - Open Design Project
+title: MAE 2250 - ODP Client Pitch
 description: Class Assignment
 image: /assets/images/spotted_lanternfly.jpg
 fontsize: 11pt 
@@ -10,8 +10,6 @@ pagestyle: empty
 header-includes: 
     - \pagenumbering{gobble} 
 --- 
-
-# Open Design Project: Spotted Lanternflies (SLFs)
 **Team:** _Sinicus_ 
 **Client(s):** _Cornell CALS Extension / E\&J Gallo Winery / National Grape_
 
