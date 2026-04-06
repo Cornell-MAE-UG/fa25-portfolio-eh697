@@ -61,14 +61,14 @@ Our project seeks to mitigate SLF damage in grape vineyards, given that it negat
 ## Illustration
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/odp illustration.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+  <img src="{{ '/assets/images/odp_illustration.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
 </div>
 <br>
 
 ## Assembly
 
 <div style="text-align: center;">
-  <img src="{{ '/assets/images/odp assembly.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+  <img src="{{ '/assets/images/odp_assembly.jpg' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
 </div>
 <br>
 
