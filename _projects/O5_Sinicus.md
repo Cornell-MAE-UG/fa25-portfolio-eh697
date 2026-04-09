@@ -7,6 +7,7 @@ fontsize: 11pt
 geometry: margin=1in 
 papersize: letter 
 pagestyle: empty
+group: group1
 --- 
 ## Design Intent and Functionality
 
