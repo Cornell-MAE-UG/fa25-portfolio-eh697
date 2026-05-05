@@ -25,6 +25,19 @@ We built a hand crank mechanism that attracts SLFs and sweeps them into a collec
 <center> Fig 1. Rough sketch of final prototype </center>
 <br>
 
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/overall_assembly_diagram.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+</div>
+<center> Fig 2a. Overall Assembly Diagram </center>
+<br>
+
+<div style="text-align: center;">
+  <img src="{{ '/assets/images/shaft_stand_detail.png' | relative_url }}" alt="Centered Image" style="max-width:100%; height:auto;">
+</div>
+<center> Fig 2b. Detail of Shaft and Stand Assembly</center>
+<br>
+
+
 ## Conclusion and Recommendations
 <p>Our final prototype successfully passed our tests; it could sweep SLF models from the disk into the funnel, which diverted the SLFs into our collection bin. In addition, our prototype was free-standing. However, during exhibition day, our acrylic rake noticeably deformed when sweeping through a thick layer of honey, and it ended up fracturing. In a redesign, we should reconsider what material our rake is made out of, as well as how it interacts with honey. In addition, during the exhibition, our setup was extremely sticky (because of the honey) and unpleasant to clean up. However, because the sap on the disk is intended to be continuously reapplied, we believe cleaning up is not a significant issue when this design is put into practice.</p>
 <p>To improve the manufacturing process, we recommend more meticulous machining practices be observed. The current prototype was manufactured using loose tolerances, leading to non-negligible misalignment between components that were likely the cause of the rake failure described above. More careful quality control in the manufacturing process would eliminate the factors that led to this failure and in turn extend the service life of the prototype.</p>
